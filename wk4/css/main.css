@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #221C42;
-	background-image: url(../assets/SunsetRun.JPG);
+	background-image: url(../images/SunsetRun.JPG);
 }
 
 h1 {
@@ -27,7 +27,7 @@ p {
 }
 
 #wrapper {
-	width: 900px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 10px;
 	/*border: solid 1px #dcdcdc;*/
@@ -42,7 +42,7 @@ header, footer {
 #logo {
 	width: 116px;
 	height: 147px;
-	margin: 5px auto;
+	margin: 0 auto;
 	padding: 0;
 }
 
