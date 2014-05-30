@@ -1,8 +1,8 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: url(../images/SunsetRun2.JPG) no-repeat;
-	background-color: #918ea2;
+	background: url(../images/SunsetRun.JPG) no-repeat;
+	background-color: #221c42;/*#918ea2;*/
 }
 
 h1 {
@@ -16,8 +16,8 @@ h1 {
 h2 {
 	text-align: center;
 	font: 35px Verdana, sans-serif;
-	color: #007CC2;
-	border-top: solid 1px #ffb900;
+	color: #ffb900;
+	border-top: solid 1px #007CC2;
 	margin: 0 0 5px;
 }
 
@@ -29,6 +29,8 @@ p {
 .quote {
 	color: #fff;
 	text-align: center;
+	/*margin: 10px 0;*/
+	/*padding: 0;*/
 }
 
 #wrapper {
@@ -64,6 +66,15 @@ header {
 	margin: 5px auto;
 	padding: 0;
 	/*border: solid 1px #dcdcdc;*/
+}
+
+.britebg {
+	color: #221c42;
+	border-top: solid 1px #221c42;
+}
+
+.britebgtext {
+	color: #221c42;
 }
 
 #img_gal {
@@ -121,7 +132,7 @@ header {
     cursor: pointer;
 }
 
-#toggle:active, #fadeinclub:active, #fadeoutclub:active, #fadeinclub:active, #fadeoutclub:active {
+#toggle:active, #fadeinclub:active, #fadeoutclub:active, #fadeinindi:active, #fadeoutindi:active {
     position: relative;
     top: 1px;
     color: rgba(255,255,255,.5);
@@ -156,12 +167,10 @@ header {
 
 #vs_club {
 	float: left;
-	background: url(../images/versus_club.png) no-repeat;
 }
 
 #vs_indi {
 	float: right;
-	background: url(../images/versus_indi.png) no-repeat;
 }
 
 #stats {
