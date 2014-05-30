@@ -51,8 +51,8 @@ $(document).ready(function() {
 function setFancyBoxLinks(){
 		$("a.overlayLink").fancybox({
 			'titlePosition':'over',
-			'overlayColor': '#221C42',
-			'overlayOpacity': .9,
+			'overlayColor': '#007CC2',
+			'overlayOpacity': .75,
 			'transitionIn':'elastic',
 			'transitionOut':'elastic',
 			'autoScale': true

@@ -76,7 +76,7 @@ a:hover { color: #bbb; }*/
 }
 
 .gallery_caption {
-	width: 375px;
+	width: 320px;
 	float: right;
 	/*padding:20px;*/
 }
@@ -84,8 +84,7 @@ a:hover { color: #bbb; }*/
 a.zoom {
 	color: #fff;
 	font-size: .8em;
-	background: url(../images/link_zoom.png)
-	no-repeat 0px 0px;
+	background: url(../images/link_zoom.png) no-repeat 0px 3px;
 	padding: 0px 0px 5px 20px;
 	text-transform: uppercase;
 	text-decoration: none
