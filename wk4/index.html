@@ -64,7 +64,25 @@
             </section>
 
             <section id="video">
-                <h2>Video</h2>
+                <h2>Wanna see one of us in action?</h2>
+
+                <div id="togBtn">
+                    <button id="toggle">Show/Hide Video</button>
+                </div>
+
+                <div id="vidCont">
+
+                    <video width="480" height="270" controls preload poster="images/Wintery_Running.jpg">
+                        <source src="media/Wintery_Running.mp4" type="video/mp4" />
+                        <source src="media/Wintery_Running.ogv" type="video/ogv" />
+                        <source src="media/Wintery_Running.f4v" type="video/f4v" />
+                        <source src="media/Wintery_Running.webm" type="video/webm" />
+                        <!-- <source src="media/Wintery_Running.m4v" type="video/m4v" /> -->
+                        Video element not supported.
+                    </video>
+
+                </div>
+
             </section>
 
             <section id="versus">
@@ -85,7 +103,7 @@
             <p>&copy; 2014 Design by JB Sanchez for FSU WIA. All Rights Reserved.</p>
         </footer>
 
-        <!-- <script src="js/main.js"></script> -->
+        <script src="js/main.js"></script>
         <script src="js/gallery.js"></script>
     </body>
 </html>

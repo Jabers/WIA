@@ -1,8 +1,8 @@
 body {
 	margin: 0;
 	padding: 0;
+	background: url(../images/SunsetRun.JPG) no-repeat;
 	background-color: #221C42;
-	background-image: url(../images/SunsetRun.JPG);
 }
 
 h1 {
@@ -57,16 +57,59 @@ header, footer {
 	height: 500px;
 	margin: 5px auto;
 	padding: 0;
-	/*border: solid 1px #dcdcdc;*/
-	/*float: left;*/
 }
 
 #video {
-	width: 300px;
+	width: 100%;
 	margin: 5px auto;
-	padding: 0;
-	border: solid 1px #dcdcdc;
+	padding: 10px 0;
+	background-color: rgba(255,255,255,.3);
+	/*border: solid 1px #dcdcdc;*/
 	/*float: right;*/
+}
+
+#video h2 {
+	border-bottom: none;
+}
+
+#vidCont {
+    width: 480px;
+    height: 270px;
+    margin: 10px auto;
+    padding: 20px;
+    border: solid 1px #dcdcdc;
+    /*cursor: pointer;*/
+    display: none;
+}
+
+#togBtn {
+	width: 190px;
+	margin: 10px auto 0;
+	padding: 0;
+}
+
+#toggle {
+    background: none;
+    font: 18px Verdana, sans-serif;
+    color: rgba(255,255,255,.3);
+    border: 1px solid rgba(255,255,255,.3);
+    outline: none;
+    text-align: center;
+    padding: .5em;
+    margin: 0;
+}
+
+#toggle:hover {
+    background-color: rgba(255,255,255,.1);
+    color: #ffffff;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+#toggle:active {
+    position: relative;
+    top: 1px;
+    color: rgba(255,255,255,.5);
 }
 
 #versus {
