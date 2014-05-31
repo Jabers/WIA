@@ -1,4 +1,4 @@
-var pie = new d3pie("pieChart1", {
+var pie = new d3pie("pieChart2", {
 	"header": {
 		"title": {
 			"text": "How Do You",
@@ -7,50 +7,44 @@ var pie = new d3pie("pieChart1", {
 			"font": "verdana"
 		},
 		"subtitle": {
-			"text": "dig deep to finish a hard effort?",
-			"color": "#007ac2",
+			"text": "keep track of your training?",
+			"color": "#007bc2",
 			"fontSize": 20,
 			"font": "verdana"
 		},
-		"titleSubtitlePadding": 1
+		"titleSubtitlePadding": 3
 	},
 	"footer": {
-		"text": "Based on 2,050 respondents",
+		"text": "Based on 1,688 respondents",
 		"color": "#d3d1d1",
 		"fontSize": 10,
-		"font": "verdana",
+		"font": "open sans",
 		"location": "bottom-left"
 	},
 	"size": {
 		"canvasWidth": 690
 	},
 	"data": {
-		"sortOrder": "value-desc",
 		"content": [
 			{
-				"label": "Visualize myself finishing strong",
-				"value": 33,
-				"color": "#2484c1"
+				"label": "Online log",
+				"value": 35,
+				"color": "#7e3838"
 			},
 			{
-				"label": "Focus on 'reeling in' other runners",
-				"value": 24,
-				"color": "#0c6197"
+				"label": "I don't record my runs",
+				"value": 15,
+				"color": "#7c7e38"
 			},
 			{
-				"label": "repeat a mantra",
+				"label": "Mobile app",
 				"value": 20,
-				"color": "#4daa4b"
+				"color": "#7e6538"
 			},
 			{
-				"label": "Listen to music",
-				"value": 19,
-				"color": "#90c469"
-			},
-			{
-				"label": "Promise myself a reward",
-				"value": 4,
-				"color": "#daca61"
+				"label": "Written journal",
+				"value": 30,
+				"color": "#567e38"
 			}
 		]
 	},
@@ -62,7 +56,6 @@ var pie = new d3pie("pieChart1", {
 			"hideWhenLessThanPercentage": 3
 		},
 		"mainLabel": {
-			"color": "#918f8a",
 			"font": "verdana",
 			"fontSize": 12
 		},
@@ -90,10 +83,6 @@ var pie = new d3pie("pieChart1", {
 	"misc": {
 		"colors": {
 			"background": "#ffffff"
-		},
-		"pieCenterOffset": {
-			"x": -45,
-			"y": 20
 		}
 	},
 	"callbacks": {}

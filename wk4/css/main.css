@@ -175,20 +175,23 @@ header {
 }
 
 #stats {
+	width: 100%;
 	margin: 5px auto;
 	padding: 0;
+	overflow: visible;
 	/*border: solid 1px #dcdcdc;*/
 	clear: both;
 }
 
 .piebox {
-	width: 800px;
+	width: 690px;
 	height: 500px;
-	margin: 0 auto;
+	margin: 10px auto;
 }
 
 footer {
 	width: 100%;
+	height: 100px;
 	margin: 0 auto;
 	padding: 5px 0 10px;
 	background-color: #fff;

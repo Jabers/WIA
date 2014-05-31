@@ -1,21 +1,21 @@
-var pie = new d3pie("pieChart1", {
+var pie = new d3pie("pieChart3", {
 	"header": {
 		"title": {
-			"text": "How Do You",
+			"text": "What Causes You",
 			"color": "#c14b00",
 			"fontSize": 50,
 			"font": "verdana"
 		},
 		"subtitle": {
-			"text": "dig deep to finish a hard effort?",
-			"color": "#007ac2",
+			"text": "anxiety before a race?",
+			"color": "#007bc2",
 			"fontSize": 20,
 			"font": "verdana"
 		},
-		"titleSubtitlePadding": 1
+		"titleSubtitlePadding": 3
 	},
 	"footer": {
-		"text": "Based on 2,050 respondents",
+		"text": "Based on 432 respondents",
 		"color": "#d3d1d1",
 		"fontSize": 10,
 		"font": "verdana",
@@ -28,29 +28,29 @@ var pie = new d3pie("pieChart1", {
 		"sortOrder": "value-desc",
 		"content": [
 			{
-				"label": "Visualize myself finishing strong",
-				"value": 33,
-				"color": "#2484c1"
+				"label": "Fear of a mid-race mishap",
+				"value": 32,
+				"color": "#44b9b0"
 			},
 			{
-				"label": "Focus on 'reeling in' other runners",
-				"value": 24,
-				"color": "#0c6197"
+				"label": "Being undertrained",
+				"value": 25,
+				"color": "#7c37c0"
 			},
 			{
-				"label": "repeat a mantra",
-				"value": 20,
-				"color": "#4daa4b"
+				"label": "Possibly missing my goal time",
+				"value": 21,
+				"color": "#cc9fb1"
 			},
 			{
-				"label": "Listen to music",
-				"value": 19,
-				"color": "#90c469"
+				"label": "A bad night's sleep",
+				"value": 16,
+				"color": "#e65414"
 			},
 			{
-				"label": "Promise myself a reward",
-				"value": 4,
-				"color": "#daca61"
+				"label": "Poor weather forecast",
+				"value": 6,
+				"color": "#8b6834"
 			}
 		]
 	},
@@ -62,7 +62,6 @@ var pie = new d3pie("pieChart1", {
 			"hideWhenLessThanPercentage": 3
 		},
 		"mainLabel": {
-			"color": "#918f8a",
 			"font": "verdana",
 			"fontSize": 12
 		},
@@ -92,7 +91,7 @@ var pie = new d3pie("pieChart1", {
 			"background": "#ffffff"
 		},
 		"pieCenterOffset": {
-			"x": -45,
+			"x": 15,
 			"y": 20
 		}
 	},
